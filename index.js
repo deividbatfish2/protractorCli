@@ -17,6 +17,13 @@ const run = async () => {
     await structure.createPackageJson()
     await structure.createReadme()
     await structure.createProtractorConfig()
+    await structure.createExemple()
+    console.log('Pronto, estrutura criada...')
+    console.log(
+        chalk.green(
+            figlet.textSync('Chupa Pyton', { horizontalLayout: 'full' })
+        )
+    )
 }
 
 run()
