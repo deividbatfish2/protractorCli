@@ -16,6 +16,7 @@ const run = async () => {
     await structure.createStructureFolders()
     await structure.createPackageJson()
     await structure.createReadme()
+    await structure.createProtractorConfig()
 }
 
 run()
