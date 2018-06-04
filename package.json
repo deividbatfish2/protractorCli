@@ -1,5 +1,5 @@
 {
-  "name": "protractorcli",
+  "name": "@deividbatfish2/protractorcli",
   "version": "1.0.0",
   "description": "Scafolde for projects of test whith protractor.",
   "main": "index.js",
